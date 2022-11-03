@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Ubuntu:wght@300&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Cabin&family=Kanit:ital,wght@1,200&family=Ubuntu:wght@300&display=swap);
+
+/* HTMl Selectors */
+
+body {
+  background-color: rgb(197, 197, 204);
+  font-family: "cabin";
+  color: rgb(16, 14, 20);
+  font-size: 20px;
+  line-height: normal;
+}
+
+h1,
+h3 {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 0.3 px;
+  color: #3a3d3d;
+}
+
+h3 {
+  font-size: 20px;
+  color: rgb(41, 54, 65);
+}
+
+p {
+  font-size: 16px;
+  color: rgb(16, 14, 20);
+}
+
+.card1 {
+  background: rgb(221, 230, 225);
+  border-radius: 4px;
+  padding: 30px;
+  margin: 10px auto;
+  width: 70%;
+  text-align: center;
+}
+
+.card {
+  background: rgb(221, 230, 225);
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 70%;
+  text-align: center;
+}
+
+/* pictures */
+
+#pic {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* botton */
+
+.btn {
+  background-color: rgb(68, 71, 71);
+  border-radius: 4px;
+  color: white;
+  display: inline-block;
+  margin: 1px;
+  padding: 12px 24px;
+  box-shadow: 1px 1px 10px rgba(235, 232, 232, 0.5);
+}
+
+.btn:hover {
+  background-color: rgb(229, 229, 236);
+}
+
+/* social_media*/
+
+.social {
+  display: inline-block;
+}
+
+.social > a {
+  color: rgb(100, 100, 100);
+  font-size: 24px;
+  padding: 8px;
+}
+
+.social-list > a:hover {
+  color: black;
+}
+
+#social-list {
+  padding: 0;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
+
+.horizontal-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-image {
+  width: 100%;
+  height: 100%;
+}
+
+.top-image-container {
+  width: 100%;
+  height: 10rem;
+}
+
+.separate{
+  width: 500%;
+  font-size: 40px;
+  color: aliceblue;
+}
